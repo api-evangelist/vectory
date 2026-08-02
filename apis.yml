@@ -1,8 +1,29 @@
 aid: vectory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vectory.png
 name: VectorY
-description: 'VectorY is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  VectorY Therapeutics is a clinical-stage biotechnology company developing
+  novel genetic medicines for neurodegenerative diseases using its proprietary
+  Vectorized Antibody Platform, which combines AAV-based gene delivery with
+  antibody engineering to express therapeutic antibodies directly in the central
+  nervous system. Its pipeline targets amyotrophic lateral sclerosis (ALS) with
+  VTx-002 and VTx-001 and Huntington's disease with VTx-003. The company was
+  surfaced as a portfolio company of Insight Partners and added to the API
+  Evangelist network. As a therapeutics research organization, VectorY publishes
+  a corporate website, pipeline, scientific publications, news, and careers, but
+  operates no public developer API, documentation portal, or programmatic
+  interface surface.
 url: https://raw.githubusercontent.com/api-evangelist/vectory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Biotech Therapeutics
+- Biotech
+- Therapeutics
+- Gene Therapy
+- Neurodegenerative Disease
+- Neuroscience
+- Antibody
+- ALS
+- Huntingtons Disease
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.vectorytx.com
+- type: About
+  url: https://www.vectorytx.com/about-us
+- type: Blog
+  url: https://www.vectorytx.com/news
+- type: Contact
+  url: https://www.vectorytx.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vectorytx1/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
